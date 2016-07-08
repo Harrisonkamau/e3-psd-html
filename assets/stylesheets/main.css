@@ -1,0 +1,15 @@
+/*First Break point*/
+
+@media screen and (min-width: 600px) {
+  }
+ body {
+   background: #616161;
+   margin: 0;
+ }
+ /*Navigation*/
+.logo h1{
+  color: #ff9800 ;
+  padding-top: 70px;
+  padding-left: 30px;
+  font-family: 'Slabo 27px', serif;
+}
