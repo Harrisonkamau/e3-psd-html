@@ -2,9 +2,16 @@
 
 @media screen and (min-width: 600px) {
   }
+
  body {
    background: #616161;
    margin: 0;
+ }
+
+ header {
+   text-align: center;
+   background: black;
+   padding-bottom: 10px;
  }
  /*Navigation*/
 .logo h1{
