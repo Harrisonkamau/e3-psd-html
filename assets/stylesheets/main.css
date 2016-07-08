@@ -1,40 +1,15 @@
-/*First Break point*/
-
-@media screen and (min-width: 600px) {
-  }
-
- body {
-   background-image: url(../images/bg.jpg);
-   margin: 0;
- }
-
- header {
-   text-align: center;
-   background: black;
-   padding-top: -10px;
-   padding-bottom: 10px;
- }
- /*Navigation*/
-.logo h1{
-  color: #ff9800 ;
-  padding-top: 70px;
-  padding-left: 30px;
-  font-family: 'Slabo 27px', serif;
+.full-width {
+  max-width: 100% !important;
 }
-
-
-.full-width{
-    background: #6161610;
-    max-width: 100% !important;
-  }
-.row{
-      margin: 0 auto;
-      max-width: 62.5rem;
-      background-image: url(../images/bg.jpg);
-      background-repeat: no-repeat;
-      background-size: cover;
-      opacity: 0.2;
-      width: 100%;
-      height: 600px;
-      margin-top: -20px;
-    }
+.title {
+  background: #565A69;
+  height: 200px;
+}
+.img1 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  opacity: 0.5;
+  z-index: -1;
+  width: 100%;
+}
