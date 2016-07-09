@@ -25,7 +25,7 @@ body {
 .container {
     position: absolute;
     background: rgba(255, 255, 255, 0.3);
-    padding-top: 210px;
+    padding-top: 230px;
     top: 0;
     height: 100%;
     width: 100%;
@@ -53,12 +53,13 @@ body {
 
 .follow {
     text-align: center;
-    padding: 50px;
+    padding: 80px;
 }
 
 .follow a{
     text-align: center;
-    padding: 25px 40px;
+    padding: 30px 40px;
+    padding-bottom: 20px;
     font-size: 30px;
     border-radius: 50px;
     background: #222A35;
@@ -82,7 +83,7 @@ body {
     color: #eee;
     padding: 0px;
     margin: 0px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 }
 
 /*Footer*/
