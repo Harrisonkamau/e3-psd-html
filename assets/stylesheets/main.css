@@ -64,7 +64,7 @@ body {
     border-radius: 50px;
     background: #222A35;
     color: #F39723;
-    font-weight: bolder;
+    font-weight: 500;
 }
 .follow a:hover {
   color:#fff;
