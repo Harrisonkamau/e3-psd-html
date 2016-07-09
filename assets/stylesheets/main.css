@@ -5,6 +5,8 @@ body {
     margin:0;
 }
 
+/*Header*/
+
 .logo{
     text-align: center;
     background: #222A35;
@@ -18,42 +20,43 @@ body {
     position: relative;
 }
 
+/*Container*/
 
 .container {
     position: absolute;
+    background: rgba(255, 255, 255, 0.3);
+    padding-top: 210px;
     top: 0;
     height: 100%;
     width: 100%;
-    background: rgba(255, 255, 255, 0.3);
-    padding-top: 210px;
 }
 
 .bg-sect > .columns {
     text-align: center;
 }
 
-.bg-locations {
+.favlocations {
     padding-left: 50px;
     padding-top: 50px;
 }
 
-.bg-locations p{
+.favlocations p{
     color: #dddddd;
     font-size: 32px;
     padding: 0;
     margin: 0;
 }
 
-.bg-locations i{
+.favlocations i{
     padding: 10px;
 }
 
-.more-details {
+.follow {
     text-align: center;
     padding: 50px;
 }
 
-.more-details a{
+.follow a{
     text-align: center;
     padding: 25px 40px;
     font-size: 30px;
@@ -62,8 +65,11 @@ body {
     color: #F39723;
     font-weight: bolder;
 }
+.follow a:hover {
+  color:#fff;
+}
 
-.f-name {
+.big-text {
     font-size: 60px;
     color: #eee;
     font-weight: bolder;
@@ -71,14 +77,17 @@ body {
     margin: 0px;
 }
 
-.loc {
+.sm-text {
     font-size: 40px;
     color: #eee;
     padding: 0px;
     margin: 0px;
     padding-bottom: 40px;
 }
-.bg-footer {
+
+/*Footer*/
+
+.footer {
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -88,23 +97,23 @@ body {
     background: rgba(0,0,0, 0.4);
 }
 
-.bg-footer > .columns {
+.footer > .columns {
     padding: 30px;
     text-align: center;
     border-left: 1px solid grey;
 }
 
-.bg-footer > .columns:first-of-type {
+.footer > .columns:first-of-type {
     border-left: 0px solid #ddd;
 }
 
-.bg-footer p {
+.footer p {
     color: #ddd;
     font-size: 25px;
     padding: 0;
     margin: 0px;
 }
 
-.bg-footer i{
+.footer i{
     padding: 20px;
 }
