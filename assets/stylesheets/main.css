@@ -1,28 +1,25 @@
-.full-width {
-  max-width: 100% !important;
-}
-html, body {
+body {
     background: #fff;
     height: 100%;
     width: 100%;
     margin:0;
 }
 
-.header-name{
+.logo{
     text-align: center;
     background: #222A35;
     color: #F39723;
     padding: 30px;
 }
-.bg-image {
-/*    background: url(../images/bg.jpg);*/
-    background-size: cover;
+
+.background-image {
     height: auto;
     padding: 0px;
     position: relative;
 }
 
-.content {
+
+.container {
     position: absolute;
     top: 0;
     height: 100%;
@@ -31,16 +28,17 @@ html, body {
     padding-top: 210px;
 }
 
-.bg-details > .columns {
+.bg-sect > .columns {
     text-align: center;
 }
 
 .bg-locations {
+    padding-left: 50px;
     padding-top: 50px;
 }
 
 .bg-locations p{
-    color: #ddd;
+    color: #dddddd;
     font-size: 32px;
     padding: 0;
     margin: 0;
