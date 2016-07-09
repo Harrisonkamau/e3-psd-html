@@ -1,34 +1,85 @@
 .full-width {
   max-width: 100% !important;
 }
-.title {
-  background: #565A69;
-  height: 200px;
-}
-.img1 {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  opacity: 0.5;
-  z-index: -1;
-  width: 100%;
+html, body {
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    margin:0;
 }
 
-.row1 button {
-    float: left;
-    border: 1px solid green
+.header-name{
+    text-align: center;
+    background: #222A35;
+    color: #F39723;
+    padding: 30px;
 }
-.row1{
-  margin-top: 100px;
-  padding-top: 140px;
-  padding-left: 80px;
-  padding-bottom: 40px;
-  border-right:4px solid grey;
-  border-right:4px solid grey;
-  /*border-bottom: 20px;*/
-  border-color: green;
+.bg-image {
+/*    background: url(../images/bg.jpg);*/
+    background-size: cover;
+    height: auto;
+    padding: 0px;
+    position: relative;
 }
 
+.content {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    padding-top: 210px;
+}
+
+.bg-details > .columns {
+    text-align: center;
+}
+
+.bg-locations {
+    padding-top: 50px;
+}
+
+.bg-locations p{
+    color: #ddd;
+    font-size: 32px;
+    padding: 0;
+    margin: 0;
+}
+
+.bg-locations i{
+    padding: 10px;
+}
+
+.more-details {
+    text-align: center;
+    padding: 50px;
+}
+
+.more-details a{
+    text-align: center;
+    padding: 25px 40px;
+    font-size: 30px;
+    border-radius: 50px;
+    background: #222A35;
+    color: #F39723;
+    font-weight: bolder;
+}
+
+.f-name {
+    font-size: 60px;
+    color: #eee;
+    font-weight: bolder;
+    padding: 0px;
+    margin: 0px;
+}
+
+.loc {
+    font-size: 40px;
+    color: #eee;
+    padding: 0px;
+    margin: 0px;
+    padding-bottom: 40px;
+}
 .bg-footer {
     position: absolute;
     bottom: 0;
